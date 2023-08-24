@@ -28,5 +28,9 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/oneplus/larry/larry-vendor.mk)
