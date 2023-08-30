@@ -1,0 +1,1 @@
+require board=holi|OP5958L1
