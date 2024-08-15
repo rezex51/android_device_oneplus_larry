@@ -1085,4 +1085,6 @@ vendor/firmware/vpu20_4v_unsigned.mbn
 
 # WiFi
 odm/etc/wifi/bdwlan.bin
+odm/etc/wifi/bdwlan_in.bin
+odm/etc/wifi/bdwlan_us.bin
 odm/etc/wifi/regdb.bin
