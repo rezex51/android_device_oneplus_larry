@@ -1014,6 +1014,8 @@ odm/etc/sensor/config/holi_qrd_mmc56x3x.json
 odm/etc/sensor/config/holi_stk3acx_0.json
 odm/etc/sensor/config/holi_sx933x_0.json
 odm/etc/sensor/sensor_config.json
+vendor/etc/sensors/hals.conf
+vendor/lib64/sensors.ssc.so
 
 # VPU
 vendor/firmware/vpu20_1v.b01
