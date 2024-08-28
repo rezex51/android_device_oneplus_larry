@@ -28,6 +28,9 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     init.device.rc
 
+# LiveDisplay
+$(call soong_config_set,OPLUS_LINEAGE_LIVEDISPLAY_HAL,ENABLE_SE,false)
+
 # Overlays
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget
