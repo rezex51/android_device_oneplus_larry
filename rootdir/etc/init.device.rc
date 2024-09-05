@@ -1,0 +1,11 @@
+#
+# Copyright (C) 2024 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+on early-init && property:ro.boot.product.hardware.sku=6
+    setprop ro.boot.product.vendor.sku nfc
+
+on early-init && property:ro.boot.product.hardware.sku=14
+    setprop ro.boot.product.vendor.sku nfc

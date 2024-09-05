@@ -28,6 +28,10 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.device.rc
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
