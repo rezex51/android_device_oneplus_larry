@@ -36,6 +36,10 @@ vendor/etc/acdbdata/QRD/holi-qrdsku1-snd-card/QRD_SKU1_Headset_cal.acdb
 vendor/etc/acdbdata/QRD/holi-qrdsku1-snd-card/QRD_SKU1_Speaker_cal.acdb
 vendor/etc/acdbdata/QRD/holi-qrdsku1-snd-card/QRD_SKU1_workspaceFile.qwsp
 
+# Audio Libraries
+odm/lib/lib_lvacfs.so
+odm/lib/liblvacfs_wrapper.so
+
 # Audio LVACFS params
 odm/etc/lvacfs_params/2mic/LVACFS_Calibration360_2mic.dat
 odm/etc/lvacfs_params/2mic/LVACFS_Configuration.txt
