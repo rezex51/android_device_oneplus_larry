@@ -9,8 +9,5 @@
 
 DEVICE_PATH := device/oneplus/larry
 
-# Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_larry
-
 # Inherit the proprietary files
 -include vendor/oneplus/larry/BoardConfigVendor.mk
