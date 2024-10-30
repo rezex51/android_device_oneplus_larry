@@ -475,9 +475,9 @@ odm/etc/camera/pf/PerfectColorSet/portrait/param9.ini
 odm/etc/camera/pf/PerfectColorSet/portrait/photoSet.ini
 odm/etc/camera/pf/PerfectColorSet/portrait/platformSet.ini
 odm/etc/camera/pf/PerfectColorSet/portrait/sceneList.txt
-odm/etc/camera/pfb_bin/BeardSharp.bin
-odm/etc/camera/pfb_bin/BeardSharp.frag
-odm/etc/camera/pfb_bin/BeardSharp.vert
+odm/etc/camera/pfb_bin/BeardSharp.bin;MODULE_SUFFIX=.bin
+odm/etc/camera/pfb_bin/BeardSharp.frag;MODULE_SUFFIX=.frag
+odm/etc/camera/pfb_bin/BeardSharp.vert;MODULE_SUFFIX=.vert
 odm/etc/camera/pfb_bin/PreAddSRBinary.bin
 odm/etc/camera/pfb_bin/PreBilaFilterBinary.bin
 odm/etc/camera/pfb_bin/PreBilaFilterBinaryV.bin
@@ -511,18 +511,18 @@ odm/etc/camera/pfb_bin/PreSobelUpdateTwoBinary.bin
 odm/etc/camera/pfb_bin/PreSurfaceBlurBinary.bin
 odm/etc/camera/pfb_bin/PreVertFilterBinary.bin
 odm/etc/camera/pfb_bin/PreVertSurBinary.bin
-odm/etc/camera/pfb_bin/SkinCalcHue.bin
-odm/etc/camera/pfb_bin/SkinCalcHue.frag
-odm/etc/camera/pfb_bin/SkinCalcHue.vert
-odm/etc/camera/pfb_bin/SkinColorBlur.bin
-odm/etc/camera/pfb_bin/SkinColorBlur.frag
-odm/etc/camera/pfb_bin/SkinColorBlur.vert
-odm/etc/camera/pfb_bin/SkinColorUnify.bin
-odm/etc/camera/pfb_bin/SkinColorUnify.frag
-odm/etc/camera/pfb_bin/SkinColorUnify.vert
-odm/etc/camera/pfb_bin/SkinHueUnify.bin
-odm/etc/camera/pfb_bin/SkinHueUnify.frag
-odm/etc/camera/pfb_bin/SkinHueUnify.vert
+odm/etc/camera/pfb_bin/SkinCalcHue.bin;MODULE_SUFFIX=.bin
+odm/etc/camera/pfb_bin/SkinCalcHue.frag;MODULE_SUFFIX=.frag
+odm/etc/camera/pfb_bin/SkinCalcHue.vert;MODULE_SUFFIX=.vert
+odm/etc/camera/pfb_bin/SkinColorBlur.bin;MODULE_SUFFIX=.bin
+odm/etc/camera/pfb_bin/SkinColorBlur.frag;MODULE_SUFFIX=.frag
+odm/etc/camera/pfb_bin/SkinColorBlur.vert;MODULE_SUFFIX=.vert
+odm/etc/camera/pfb_bin/SkinColorUnify.bin;MODULE_SUFFIX=.bin
+odm/etc/camera/pfb_bin/SkinColorUnify.frag;MODULE_SUFFIX=.frag
+odm/etc/camera/pfb_bin/SkinColorUnify.vert;MODULE_SUFFIX=.vert
+odm/etc/camera/pfb_bin/SkinHueUnify.bin;MODULE_SUFFIX=.bin
+odm/etc/camera/pfb_bin/SkinHueUnify.frag;MODULE_SUFFIX=.frag
+odm/etc/camera/pfb_bin/SkinHueUnify.vert;MODULE_SUFFIX=.vert
 odm/etc/camera/pfb_bin/ThirdPartyPreHoriFilterBinary.bin
 odm/etc/camera/pfb_bin/ThirdPartyPreMorphBinary.bin
 odm/etc/camera/pfb_bin/ThirdPartyPreOnlywhitenBinary.bin
@@ -608,8 +608,7 @@ odm/etc/camera/selfbokehmodel.bin
 odm/etc/camera/settings_fdc.txt
 odm/etc/camera/text_enhance_yuv_v1.tflite
 odm/lib/libVDBayerHDR.so
-odm/lib/libVDBlurless.so
-odm/lib/libVDBlurlessAPI_v2.so
+odm/lib/libVDBlurlessAPI_v2.so;DISABLE_CHECKELF
 odm/lib/libVDExternal.so
 odm/lib/libVDSuperPhotoAPI.so
 odm/lib/libc++_shared.so
@@ -630,7 +629,6 @@ odm/lib64/camera/fdconfigpreview.bin
 odm/lib64/camera/fdconfigpreviewlite.bin
 odm/lib64/camera/fdconfigvideo.bin
 odm/lib64/camera/fdconfigvideolite.bin
-odm/lib64/hwconfigurationutiltest
 odm/lib64/lib2DSlender.so
 odm/lib64/libAlgoInterface.so
 odm/lib64/libAlgoProcess.so
@@ -639,7 +637,6 @@ odm/lib64/libAncHumBokeh.so
 odm/lib64/libAncHumBokehPost.so
 odm/lib64/libAncHumVideoBase.so
 odm/lib64/libAncHumanDoubleExposure.so
-odm/lib64/libAncHumanRetain.so
 odm/lib64/libAncHumanSegFigureFusion.so
 odm/lib64/libAncSegmentSdk.so
 odm/lib64/libBokehPre.so
@@ -651,9 +648,9 @@ odm/lib64/libFaceBeautyJni.so
 odm/lib64/libFaceBeautyPre.so
 odm/lib64/libFaceDistortionCorrection.so
 odm/lib64/libFilterWrapper.so
-odm/lib64/libImageWarpMask.so
-odm/lib64/libOGLManager.so
-odm/lib64/libOPLUS_SCPortrait.so
+odm/lib64/libImageWarpMask.so;FIX_SONAME
+odm/lib64/libOGLManager.so;DISABLE_CHECKELF
+odm/lib64/libOPLUS_SCPortrait.so;FIX_SONAME
 odm/lib64/libPerfectColor.so
 odm/lib64/libPerfectlyClearCrux.so
 odm/lib64/libPerfectlyClearCruxOpt.so
@@ -665,7 +662,7 @@ odm/lib64/libSNPE_G.so
 odm/lib64/libSuperTextWrapper.so
 odm/lib64/libTrafficMode.so
 odm/lib64/libVDBayerHDR.so
-odm/lib64/libVDBlurless.so
+odm/lib64/libVDBlurless.so;FIX_SONAME
 odm/lib64/libVDDualCameraBlurlessAPI.so
 odm/lib64/libVDExternal.so
 odm/lib64/libVDPostureDetection.so
@@ -673,6 +670,8 @@ odm/lib64/libVDSuperPhotoAPI.so
 odm/lib64/libVDUpScale.so
 odm/lib64/libWaterMark.so
 odm/lib64/libWaterMode.so
+odm/lib64/libXDocProcessSDK.so
+odm/lib64/libYTCommon.so
 odm/lib64/lib_rectify.so
 odm/lib64/libaisd.so
 odm/lib64/libaiseg.so
@@ -680,7 +679,7 @@ odm/lib64/libalCFR.so
 odm/lib64/libancbase_rt_bokeh.so
 odm/lib64/libancbase_segment.so
 odm/lib64/libaps_frame_registration.so
-odm/lib64/libapsdarksight.so
+odm/lib64/libapsdarksight.so;FIX_SONAME
 odm/lib64/libapsexif.so
 odm/lib64/libapsjpeg.so
 odm/lib64/libapspng.so
@@ -698,8 +697,8 @@ odm/lib64/libarcsoft_hdrplus_hvx_stub.so
 odm/lib64/libarcsoft_high_dynamic_range.so
 odm/lib64/libarcsoft_high_dynamic_range_couple.so
 odm/lib64/libarcsoft_lensstaindetection.so
-odm/lib64/libarcsoft_low_light_hdr.so
-odm/lib64/libarcsoft_low_light_hdr_for_neon.so
+odm/lib64/libarcsoft_low_light_hdr.so;FIX_SONAME
+odm/lib64/libarcsoft_low_light_hdr_for_neon.so;FIX_SONAME
 odm/lib64/libarcsoft_portraitSN_hvx_stub.so
 odm/lib64/libarcsoft_portrait_super_night_raw.so
 odm/lib64/libarcsoft_portraitsupernight.so
@@ -707,6 +706,7 @@ odm/lib64/libarcsoft_preview_antibanding.so
 odm/lib64/libarcsoft_scbokeh_video.so
 odm/lib64/libarcsoft_smart_denoise.so
 odm/lib64/libarcsoft_super_night_raw.so
+odm/lib64/libavutil.so
 odm/lib64/libarcsoft_supernight.so
 odm/lib64/libc++_shared.so
 odm/lib64/libexif-jpeg-aps.so
@@ -728,11 +728,11 @@ odm/lib64/libsnpe_loader.so
 odm/lib64/libsnpeml.so
 odm/lib64/libstblur_api.so
 odm/lib64/libstblur_capture_api.so
-odm/lib64/libstdc++.so
 odm/lib64/libstface_fd_api.so
 odm/lib64/libstfd_mobile_api.so
 odm/lib64/libswresample.so
 odm/lib64/libswscale.so
+odm/lib64/libsymphony-cpu.so
 odm/lib64/libwatermark_photo.so
 odm/lib64/libyuvwrapper.so
 odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so
@@ -828,8 +828,8 @@ vendor/lib64/com.qti.feature2.anchorsync.so
 vendor/lib64/com.qti.feature2.demux.so
 vendor/lib64/com.qti.feature2.derivedoffline.so
 vendor/lib64/com.qti.feature2.frameselect.so
-vendor/lib64/com.qti.feature2.fusion.so
-vendor/lib64/com.qti.feature2.generic.so
+vendor/lib64/com.qti.feature2.fusion.so;DISABLE_CHECKELF
+vendor/lib64/com.qti.feature2.generic.so;DISABLE_CHECKELF
 vendor/lib64/com.qti.feature2.gs.cedros.so
 vendor/lib64/com.qti.feature2.gs.kamorta.so
 vendor/lib64/com.qti.feature2.gs.kodiak.so
@@ -912,8 +912,9 @@ vendor/lib64/libos.so
 vendor/lib64/libqll10.so
 vendor/lib64/libqllengine.so
 vendor/lib64/libremosaic_wrapper.so
-vendor/lib64/libremosaiclib_s5k3p9.so
-vendor/lib64/libremosaiclib_s5kjn1.so
+vendor/lib64/libremosaiclib_s5k3p9.so;FIX_SONAME
+vendor/lib64/libremosaiclib_s5kjn1.so;FIX_SONAME
+vendor/lib64/librmsclib1.so
 vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libsynx.so
 vendor/lib64/libtfestriping.so
@@ -951,12 +952,9 @@ odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff
 odm/bin/init.oplus.fingerprints.sh
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
 odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml
-odm/lib/vendor.oplus.hardware.performance-V1-ndk_platform.so
 odm/lib64/android.hardware.biometrics.common-V1-ndk_platform.so
-odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so
 odm/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
-odm/lib64/vendor.oplus.hardware.performance-V1-ndk_platform.so
 
 # Fingerprint firmware
 odm/vendor/firmware/uff_jv.b00
