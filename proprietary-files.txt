@@ -1,4 +1,4 @@
-# Device proprietary files - from CPH2467_14.0.0.901(EX01) build, unless pinned
+# Device proprietary files - from CPH2467_14.0.0.930(EX01) build, unless pinned
 
 # Audio ACDB
 odm/etc/acdbdata/MOS/Bluetooth_cal.acdb
