@@ -24,13 +24,13 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Init
+PRODUCT_PACKAGES += \
+    init.device.rc
+
 # Overlays
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget
-
-# Ramdisk
-PRODUCT_PACKAGES += \
-    init.device.rc
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
